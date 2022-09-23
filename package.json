@@ -1,0 +1,21 @@
+{
+  "name": "gooey-hover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.1.1",
+    "three": "^0.143.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
